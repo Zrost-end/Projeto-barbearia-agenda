@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda Barber - Selecionar Data</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Agenda Barber</div>
+  </header>
+
+  <section class="schedule">
+    <h2>Escolha a Data e o Horário</h2>
+
+    <div class="auth-status">
+      <p id="status" style="margin-bottom: 1rem;">Você precisa autorizar o acesso à agenda.</p>
+      <button id="authorize_button" class="btn">Autorizar com Google</button>
+      <button id="signout_button" class="btn" style="display: none; background-color: #555;">Sair</button>
+    </div>
+
+    <div class="calendar">
+      <input type="date" disabled>
+    </div>
+
+    <div class="time-slots">
+      <button class="time">09:00</button>
+      <button class="time">09:30</button>
+      <button class="time">10:00</button>
+      <button class="time">10:30</button>
+      <button class="time">11:00</button>
+      <button class="time">11:30</button>
+      <button class="time">14:00</button>
+      <button class="time">14:30</button>
+      <button class="time">15:00</button>
+      <button class="time">15:30</button>
+      <button class="time">16:00</button>
+      <button class="time">16:30</button>
+    </div>
+
+    <a href="confirm.html" class="btn" id="btn-avancar">Avançar</a>
+  </section>
+
+  <script async defer src="https://apis.google.com/js/api.js"></script>
+  <script async defer src="https://accounts.google.com/gsi/client"></script>
+  <script src="config.js"></script> <script src="main.js"></script>
+  
+</body>
+</html>
