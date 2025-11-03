@@ -231,7 +231,7 @@ if (window.location.pathname.includes("confirm.html")) {
 }
 
 // =========================================================
-// FUNÇÕES GLOBAIS
+  // FUNÇÕES GLOBAIS
 // =========================================================
 
 // Cria o evento no Google Calendar
